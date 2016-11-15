@@ -1,5 +1,5 @@
 task1:
-  image: centos/task1
+  image: centos:task1
   volumes:
    - /tmp/code:${REPO_DIR}
   command: bash -c "cd ${REPO_DIR}/ && rm -rf * && git clone ${GITHUB_URL}"

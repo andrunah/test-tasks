@@ -1,1 +1,1 @@
-docker build -no-cache -t centos/task1 .
+docker build --rm --no-cache -t 'centos:task1' .
